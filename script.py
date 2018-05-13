@@ -15,7 +15,11 @@ def get(id):
 
 
 parse_range(1222609871,10)
+#Варианты ответов
+#{'ERROR': 'Transfer already exists', 'status': 403}
+#{'ERROR': 'Transfer already exists', 'status': 403}
+#{'status': 201, 'invoke_id': 1222609873}
 get(1222609871)
-
-
-	
+#Варианты ответов
+#{'amount': 1000, 'currency': 'RUB', 'company': 'NN', 'invoke_id': 123, 'store_page': 'example.com', 'status': 200}
+#'ERROR': 'Transfer not found', 'status': 404}
